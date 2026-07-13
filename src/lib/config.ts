@@ -60,9 +60,9 @@ function parseJSON<T>(raw: string | undefined, fallback: T): T {
 }
 
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || '이지원',
-  nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'Jiwon Lee',
-  tagline: process.env.NEXT_PUBLIC_TAGLINE || '콘텐츠로 세상을 연결하는 크리에이터',
+  name: process.env.NEXT_PUBLIC_SITE_NAME || '홍길동',
+  nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'Gildong hong',
+  tagline: process.env.NEXT_PUBLIC_TAGLINE || '바이브코딩 초보자',
   taglineEn: process.env.NEXT_PUBLIC_TAGLINE_EN || 'Creator who connects the world through content',
   heroImageUrl: process.env.NEXT_PUBLIC_HERO_IMAGE_URL || 'https://linkmap.biz/img/templates/personal-brand-hero.png',
   story:
