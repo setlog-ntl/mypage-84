@@ -1,18 +1,9 @@
 /* ── Preset Override (auto-generated) ── */
 html[data-preset] {
-  --brand-primary: #10b981;
-  --brand-secondary: #34d399;
-  --brand-glow: rgba(16, 185, 129, 0.15);
-  --brand-gradient: linear-gradient(135deg, #10b981, #34d399);
-  --color-primary: #10b981;
-  --color-secondary: #34d399;
-  --bg: #0a0a0a;
-  --bg-alt: #111111;
-  --text-primary: #e2e8f0;
-  --text-secondary: #94a3b8;
-  --surface-elevated: #1a1a1a;
-  --surface-border: #1e293b;
-  --shadow-card: 0 1px 3px rgba(0,0,0,0.3), 0 4px 12px rgba(0,0,0,0.2);
-  --shadow-card-hover: 0 4px 16px rgba(0,0,0,0.4), 0 8px 32px rgba(0,0,0,0.3);
-  --shadow-lg: 0 12px 40px rgba(0,0,0,.5);
+  --brand-primary: #0369a1;
+  --brand-secondary: #0ea5e9;
+  --brand-glow: rgba(3, 105, 161, 0.15);
+  --brand-gradient: linear-gradient(135deg, #0369a1, #0ea5e9);
+  --color-primary: #0369a1;
+  --color-secondary: #0ea5e9;
 }
