@@ -22,9 +22,9 @@ export interface SocialItem {
 const DEMO_VALUES: ValueItem[] = [
   {
     emoji: '✦',
-    title: '진정성',
-    titleEn: 'Authenticity',
-    desc: '광고처럼 느껴지지 않는 콘텐츠. 내가 직접 써봤거나 뿿는 것만 이야기합니다.',
+    title: '바이브코딩',
+    titleEn: 'vibecording',
+    desc: 'AI를 통한 바이브코딩',
   },
   {
     emoji: '✦',
@@ -67,7 +67,7 @@ export const siteConfig = {
   heroImageUrl: process.env.NEXT_PUBLIC_HERO_IMAGE_URL || 'https://linkmap.biz/img/templates/personal-brand-hero.png',
   story:
     process.env.NEXT_PUBLIC_STORY ||
-    '안녕하세요, 저는 이지원입니다. 5년살 디지털 콘텐츠를 만들며 브랜드와 사람 사이의 다리를 놓고 있어요.',
+    '안녕하세요, 저는 바이브코딩으로 개발을 시작한 초보 개발자입니다',
   storyEn:
     process.env.NEXT_PUBLIC_STORY_EN ||
     'Hi, I\'m Jiwon Lee. For the past five years I\'ve been building bridges between brands and people through digital content.',
@@ -86,12 +86,12 @@ export const siteConfig = {
   { platform: 'youtube', url: 'https://youtube.com' },
   { platform: 'instagram', url: 'https://instagram.com' }
 ]),
-  gradientFrom: '#818cf8',
-  gradientTo: '#c084fc',
+  gradientFrom: '#10b981',
+  gradientTo: '#34d399',
   parallaxEnabled: true,
   fontFamily: 'Pretendard',
   galleryColumns: '3',
-  designPreset: 'midnight',
+  designPreset: 'terminal',
   gaId: process.env.NEXT_PUBLIC_GA_ID || null,
 };
 

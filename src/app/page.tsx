@@ -13,7 +13,7 @@ function PresetSync() {
   return (
     <script
       dangerouslySetInnerHTML={{
-        __html: "document.documentElement.setAttribute('data-preset','" + (siteConfig.designPreset || 'midnight') + "')"
+        __html: "document.documentElement.setAttribute('data-preset','" + (siteConfig.designPreset || 'terminal') + "')"
       }}
     />
   );
